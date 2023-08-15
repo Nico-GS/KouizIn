@@ -23,6 +23,13 @@ import org.springframework.stereotype.Service
 class ServerMonitoringService : CoroutineScope, DisposableBean
 {
 
+    // region lateinit
+
+    @Value("\${token.discord-bot}")
+    private lateinit var TOKEN_DISCORD_BOT: String
+
+    // endregion
+
     /**
      * Clean & destroy context
      */
@@ -88,8 +95,8 @@ class ServerMonitoringService : CoroutineScope, DisposableBean
 
     companion object
     {
-        @Value("\${token.discord-bot}")
-        private lateinit var TOKEN_DISCORD_BOT: String
+//        @Value("\${token.discord-bot}")
+//        private lateinit var TOKEN_DISCORD_BOT: String
         private const val URL = "https://backend.kouiz.in:8443"
     }
 
