@@ -13,6 +13,7 @@ import okhttp3.OkHttpClient
 import okhttp3.Request
 import okhttp3.Response
 import org.springframework.beans.factory.DisposableBean
+import org.springframework.beans.factory.annotation.Value
 import org.springframework.stereotype.Service
 
 /**
@@ -31,21 +32,8 @@ class ServerMonitoringService : CoroutineScope, DisposableBean
     }
 
     override val coroutineContext = Dispatchers.Default + SupervisorJob()
+    private val jda = JDABuilder.createDefault(TOKEN_DISCORD_BOT).enableIntents(GatewayIntent.MESSAGE_CONTENT).build()
 
-    private val token = "MTEzODg1MTcyMzE2MzcyOTk2MA.G_4aw3.iIZzhYI5nvrvRt6orQhkJFpfRh_sBcYUjXlgMU"
-    private val channelId = "1138847076214644787"
-    private val jda = JDABuilder.createDefault(token).enableIntents(GatewayIntent.MESSAGE_CONTENT).build()
-
-    //    init
-//    {
-//        launch {
-//            while (isActive)
-//            {
-//                reportServerStatus()
-//                delay(600000) // 30 secondes
-//            }
-//        }
-//    }
     init
     {
         jda.addEventListener(object : ListenerAdapter()
@@ -79,10 +67,9 @@ class ServerMonitoringService : CoroutineScope, DisposableBean
 
     private fun isServerOnline(): Boolean
     {
-        val url = "https://backend.kouiz.in:8443"
 
         val client = OkHttpClient()
-        val request = Request.Builder().url(url).build()
+        val request = Request.Builder().url(URL).build()
         val response: Response = client.newCall(request).execute()
         return try
         {
@@ -98,5 +85,13 @@ class ServerMonitoringService : CoroutineScope, DisposableBean
     }
 
     // endregion
+
+    companion object
+    {
+        @Value("\${token.discord-bot}")
+        private lateinit var TOKEN_DISCORD_BOT: String
+        private const val URL = "https://backend.kouiz.in:8443"
+    }
+
 
 }
