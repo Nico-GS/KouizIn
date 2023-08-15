@@ -42,6 +42,26 @@ jobs:
           sudo docker login -u lornmalvo -p ${{ secrets.DOCKER_PASSWORD }}
           sudo docker push lornmalvo/kouiz-back:${{ steps.increment-version.outputs.new-version }}
 
+          - name: Cleanup old Docker images
+            run: |
+              # Installer Docker Registry CLI
+                   curl -sSL https://github.com/mayconbordin/docker-registry-cli/releases/download/v0.4.0/reg-linux-amd64 -o reg && chmod +x reg && sudo mv reg /usr/local/bin
+              
+              # Récupérer la liste des tags
+                   TAGS=$(reg tags lornmalvo/kouiz-back)
+              
+              # Supprimer les tags sauf les deux derniers
+                   for TAG in $TAGS; do
+                   if [[ "$TAG" != "${{ steps.increment-version.outputs.new-version }}" && "$TAG" != "v0.0.$((PATCH))" ]]; then
+              # Supprimer le tag du registry Docker
+                   reg delete lornmalvo/kouiz-back:$TAG
+                   fi
+            done
+        env:
+          REG_USERNAME: lornmalvo
+          REG_PASSWORD: ${{ secrets.DOCKER_PASSWORD }}
+
+
       - name: Deploy & Run Docker image on OVH server
         run: |
           cd /home/debian/app/back/
