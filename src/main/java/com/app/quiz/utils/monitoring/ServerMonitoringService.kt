@@ -95,7 +95,7 @@ class ServerMonitoringService : CoroutineScope, DisposableBean
 
     companion object
     {
-//        @Value("\${token.discord-bot}")
+        //        @Value("\${token.discord-bot}")
 //        private lateinit var TOKEN_DISCORD_BOT: String
         private const val URL = "https://backend.kouiz.in:8443"
     }
