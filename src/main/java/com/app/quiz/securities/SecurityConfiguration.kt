@@ -94,7 +94,13 @@ open class SecurityConfiguration
     {
         // allow localhost for dev purposes
         val configuration = CorsConfiguration()
-        configuration.allowedOrigins = listOf("http://localhost:8080", "http://localhost:4200", "http://localhost:3000", "https://kouiz.in/", "https://www.kouiz.in/")
+        configuration.allowedOrigins = listOf(
+            "http://localhost:8080",
+            "http://localhost:4200",
+            "http://localhost:3000",
+            "https://kouiz.in/",
+            "https://www.kouiz.in/"
+        )
         configuration.allowedMethods = listOf("GET", "POST", "PUT", "DELETE")
         configuration.allowedHeaders = listOf("authorization", "content-type")
         val source = UrlBasedCorsConfigurationSource()
