@@ -61,7 +61,6 @@ jobs:
           REG_USERNAME: lornmalvo
           REG_PASSWORD: ${{ secrets.DOCKER_PASSWORD }}
 
-
       - name: Deploy & Run Docker image on OVH server
         run: |
           cd /home/debian/app/back/
