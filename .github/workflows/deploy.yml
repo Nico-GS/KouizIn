@@ -1,0 +1,51 @@
+name: Deploy to OVH server
+
+on:
+  push:
+    branches:
+      - prod
+
+jobs:
+  deploy:
+    runs-on: self-hosted
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Increment version
+        id: increment-version
+        run: |
+          # Gestion des version, incrémente à chaque push sur prod
+          VERSION=$(cat VERSION)
+          BASE_VERSION=$(echo $VERSION | sed -e "s/v//g")
+          MAJOR=$(echo $BASE_VERSION | cut -d. -f1)
+          MINOR=$(echo $BASE_VERSION | cut -d. -f2)
+          PATCH=$(echo $BASE_VERSION | cut -d. -f3)
+          NEW_PATCH=$((PATCH + 1))
+          NEW_VERSION="v$MAJOR.$MINOR.$NEW_PATCH"
+          echo $NEW_VERSION > VERSION
+          echo "::set-output name=new-version::$NEW_VERSION"
+
+      - name: Commit and push new version
+        run: |
+          git config --global user.name "GitHub Action"
+          git config --global user.email "action@github.com"
+          git add VERSION
+          git commit -m "Increment version to ${{ steps.increment-version.outputs.new-version }}"
+          git push
+
+      - name: Build Docker image
+        run: sudo docker build -t lornmalvo/kouiz-back:${{ steps.increment-version.outputs.new-version }} .
+
+      - name: Push Docker image to Docker Hub
+        run: |
+          sudo docker login -u lornmalvo -p ${{ secrets.DOCKER_PASSWORD }}
+          sudo docker push lornmalvo/kouiz-back:${{ steps.increment-version.outputs.new-version }}
+
+      - name: Deploy & Run Docker image on OVH server
+        run: |
+          cd /home/debian/app/back/
+          sudo docker pull lornmalvo/kouiz-back:${{ steps.increment-version.outputs.new-version }}
+          sudo docker stop kouiz-back || true
+          sudo docker rm kouiz-back || true
+          sudo docker run --env-file /home/debian/docker/env.list -p 8443:8443 -d --restart=always --name kouiz-back lornmalvo/kouiz-back:${{ steps.increment-version.outputs.new-version }}

@@ -1,0 +1,1001 @@
+{
+    "count": 83,
+    "quizzes": [
+        {
+            "_id": "642438e068d7ea9aa9527841",
+            "question": "Jeff Koons est surtout connu pour ses ... ?",
+            "answer": "Sculptures",
+            "badAnswers": [
+                "Tags",
+                "Peintures",
+                "Dessins"
+            ],
+            "category": "art_litterature",
+            "difficulty": "normal"
+        },
+        {
+            "_id": "642438e068d7ea9aa952783c",
+            "question": "Quel génie italien de la Renaissance a peint en 1512 la fresque intitulée : 'La création d'Adam' ?",
+            "answer": "Michel-Ange",
+            "badAnswers": [
+                "Raphael",
+                "Bellini",
+                "Botticelli"
+            ],
+            "category": "art_litterature",
+            "difficulty": "normal"
+        },
+        {
+            "_id": "642438e068d7ea9aa9527843",
+            "question": "Klein a déposé une couleur qui porte son nom ...",
+            "answer": "Bleu",
+            "badAnswers": [
+                "Noir",
+                "Rouge",
+                "Violet"
+            ],
+            "category": "art_litterature",
+            "difficulty": "normal"
+        },
+        {
+            "_id": "642438e068d7ea9aa9527852",
+            "question": "Quel est l'acteur principal de la série Breaking Bad ?",
+            "answer": "Bryan Cranston",
+            "badAnswers": [
+                "Josh Radnor",
+                "Matt Damon",
+                "Andrew Lincoln"
+            ],
+            "category": "tv_cinema",
+            "difficulty": "normal"
+        },
+        {
+            "_id": "642438e068d7ea9aa9527853",
+            "question": "Qui est le premier interprète du Doctor Who ?",
+            "answer": "William Hartnell",
+            "badAnswers": [
+                "Richard Hurndall",
+                "David Bradley",
+                "Matt Smith"
+            ],
+            "category": "tv_cinema",
+            "difficulty": "difficile"
+        },
+        {
+            "_id": "642438e068d7ea9aa9527855",
+            "question": "Comment s'appelle le héro de la licence Metal Gear ?",
+            "answer": "Solid Snake",
+            "badAnswers": [
+                "Big Boss",
+                "Liquid Snake",
+                "Link"
+            ],
+            "category": "jeux_videos",
+            "difficulty": "normal"
+        },
+        {
+            "_id": "642438e068d7ea9aa9527856",
+            "question": "Lequel de ses personnages n'est pas disponible dans le jeu Street of Rage ?",
+            "answer": "Rick Thunder",
+            "badAnswers": [
+                "Adam Hunter",
+                "Axel Stone",
+                "Blaze Fielding"
+            ],
+            "category": "jeux_videos",
+            "difficulty": "facile"
+        },
+        {
+            "_id": "642438e068d7ea9aa952785b",
+            "question": "Qui est le compositeur du thème principal de Tetris, Korobeïniki ?",
+            "answer": "Nikolaï Nekrassov",
+            "badAnswers": [
+                "Piotr Tchaïkovski",
+                "Hirokazu Tanaka",
+                "Alexandre Nikolaïevitch Skriabin"
+            ],
+            "category": "jeux_videos",
+            "difficulty": "difficile"
+        },
+        {
+            "_id": "642438e068d7ea9aa9527860",
+            "question": "A quel développeur est associé la série de jeux vidéos Civilization ?",
+            "answer": "Sid Meier",
+            "badAnswers": [
+                "Tom Clancy",
+                "Jeff Kaplan",
+                "Markus Persson"
+            ],
+            "category": "jeux_videos",
+            "difficulty": "normal"
+        },
+        {
+            "_id": "642438e068d7ea9aa9527862",
+            "question": "Quel animal est Sonic ?",
+            "answer": "Hérisson",
+            "badAnswers": [
+                "Raton-laveur",
+                "Chien",
+                "Blaireau"
+            ],
+            "category": "jeux_videos",
+            "difficulty": "facile"
+        },
+        {
+            "_id": "642438e068d7ea9aa9527861",
+            "question": "En quelle année les jeux FIFA Football ont-ils commencé à être édités ?",
+            "answer": "1993",
+            "badAnswers": [
+                "1994",
+                "1998",
+                "2000"
+            ],
+            "category": "jeux_videos",
+            "difficulty": "facile"
+        },
+        {
+            "_id": "642438e068d7ea9aa9527863",
+            "question": "Le film 'Quatre garçons dans le vent' met en scène quel groupe de musique ?",
+            "answer": "Les Beatles",
+            "badAnswers": [
+                "Les Rolling stones",
+                "The Animals",
+                "Evanescence"
+            ],
+            "category": "musique",
+            "difficulty": "facile"
+        },
+        {
+            "_id": "642438e068d7ea9aa9527869",
+            "question": "En quelle année est sorti le premier album du groupe Indochine, 'L'aventurier' ?",
+            "answer": "1982",
+            "badAnswers": [
+                "1983",
+                "1985",
+                "1980"
+            ],
+            "category": "musique",
+            "difficulty": "normal"
+        },
+        {
+            "_id": "642438e068d7ea9aa952786b",
+            "question": "Quel était le surnom donné à Michael Jackson ?",
+            "answer": "King of the Pop",
+            "badAnswers": [
+                "King of Rock",
+                "King of Music",
+                "King of Danse"
+            ],
+            "category": "musique",
+            "difficulty": "facile"
+        },
+        {
+            "_id": "642438e068d7ea9aa9527872",
+            "question": "Quel nom porte le logiciel de traitement de texte mis au point par Microsoft ?",
+            "answer": "Word",
+            "badAnswers": [
+                "Access",
+                "Excel",
+                "PowerPoint"
+            ],
+            "category": "culture_generale",
+            "difficulty": "facile"
+        },
+        {
+            "_id": "642438e068d7ea9aa9527875",
+            "question": "A quelle classe animale le scorpion appartient-il ?",
+            "answer": "Aux arachnides",
+            "badAnswers": [
+                "Aux mammifères",
+                "Aux reptiles",
+                "Aux insectes"
+            ],
+            "category": "culture_generale",
+            "difficulty": "normal"
+        },
+        {
+            "_id": "642438e068d7ea9aa9527876",
+            "question": "Quel oiseau palmipède a pour particularité de construire un nid flottant ?",
+            "answer": "La grèbe",
+            "badAnswers": [
+                "La grèle",
+                "La grève",
+                "La grène"
+            ],
+            "category": "culture_generale",
+            "difficulty": "facile"
+        },
+        {
+            "_id": "642438e068d7ea9aa9527879",
+            "question": "Comment appelle-t-on le versant de la montagne non situé au soleil ?",
+            "answer": "Ubac",
+            "badAnswers": [
+                "Adret",
+                "Etant",
+                "Ressac"
+            ],
+            "category": "culture_generale",
+            "difficulty": "difficile"
+        },
+        {
+            "_id": "642438e068d7ea9aa952787d",
+            "question": "Qui fut le premier européen à arriver aux Philippines ?",
+            "answer": "Magellan",
+            "badAnswers": [
+                "Christophe Colomb",
+                "Vasco de Gama",
+                "Mauperthuis"
+            ],
+            "category": "culture_generale",
+            "difficulty": "normal"
+        },
+        {
+            "_id": "642438e068d7ea9aa9527884",
+            "question": "Avec quoi mesure-t-on la pronfondeur des océans ?",
+            "answer": "Un sonar",
+            "badAnswers": [
+                "Un sextant",
+                "Un radar",
+                "Un compteur Geiger"
+            ],
+            "category": "culture_generale",
+            "difficulty": "facile"
+        },
+        {
+            "_id": "642438e068d7ea9aa9527889",
+            "question": "Dans quelles aventures retrouve-t-on les personnages de Loïs et Clark ?",
+            "answer": "Superman",
+            "badAnswers": [
+                "Hulk",
+                "Spiderman",
+                "Batman"
+            ],
+            "category": "culture_generale",
+            "difficulty": "facile"
+        },
+        {
+            "_id": "642438e068d7ea9aa9527877",
+            "question": "Dans le langage familier, comment appelle-t-on la dente du petit enfant ?",
+            "answer": "Quenotte",
+            "badAnswers": [
+                "Marmotte",
+                "Menotte",
+                "Bouillotte"
+            ],
+            "category": "culture_generale",
+            "difficulty": "facile"
+        },
+        {
+            "_id": "645a36bbbca7a5cfa9166d7a",
+            "question": "Qui a écrit 'La Valise en carton' ?",
+            "answer": "Linda de Suza",
+            "badAnswers": [
+                "Victor Hugo",
+                "Bernard Werber",
+                "Amélie Nothomb"
+            ],
+            "category": "art_litterature",
+            "difficulty": "facile"
+        },
+        {
+            "_id": "642438e068d7ea9aa952783d",
+            "question": "Quel est le mouvement artistique d'Andy Warhol ?",
+            "answer": "Pop Art",
+            "badAnswers": [
+                "Street Art",
+                "Land Art",
+                "Art Abstrait"
+            ],
+            "category": "art_litterature",
+            "difficulty": "normal"
+        },
+        {
+            "_id": "642438e068d7ea9aa9527842",
+            "question": "Jean-Michel Basquiat est décédé à quel âge ?",
+            "answer": "27 ans",
+            "badAnswers": [
+                "19 ans",
+                "33 ans",
+                "39 ans"
+            ],
+            "category": "art_litterature",
+            "difficulty": "difficile"
+        },
+        {
+            "_id": "642438e068d7ea9aa9527844",
+            "question": "Qui a emballé l'Arc de Triomphe à Paris ?",
+            "answer": "Christo",
+            "badAnswers": [
+                "Tati",
+                "Yoko Ono",
+                "Ben"
+            ],
+            "category": "art_litterature",
+            "difficulty": "facile"
+        },
+        {
+            "_id": "642438e068d7ea9aa9527849",
+            "question": "L'actrice Brigitte Bardot a joué dans le film ... ?",
+            "answer": "Et Dieu... créa la femme",
+            "badAnswers": [
+                "Jules et Jim",
+                "La piscine",
+                "Belle de Jour"
+            ],
+            "category": "tv_cinema",
+            "difficulty": "normal"
+        },
+        {
+            "_id": "642438e068d7ea9aa952783f",
+            "question": "Quel est la particularité de l'artiste Banksy ?",
+            "answer": "Identité inconnue",
+            "badAnswers": [
+                "Homme Politique",
+                "Drag Queen",
+                "Pas encore majeur"
+            ],
+            "category": "art_litterature",
+            "difficulty": "facile"
+        },
+        {
+            "_id": "642438e068d7ea9aa952784c",
+            "question": "Le film Trainspotting décrit la démarche d'un ... ?",
+            "answer": "Drogué",
+            "badAnswers": [
+                "Stripteaser",
+                "Tueur en série",
+                "Contrôleur de train"
+            ],
+            "category": "tv_cinema",
+            "difficulty": "normal"
+        },
+        {
+            "_id": "642438e068d7ea9aa9527850",
+            "question": "Dans quelle série a joué l'acteur Jim Parsons ?",
+            "answer": "The Big Bang Theory",
+            "badAnswers": [
+                "How I met your mother",
+                "Game of Thrones",
+                "La petite maison dans la prairie"
+            ],
+            "category": "tv_cinema",
+            "difficulty": "facile"
+        },
+        {
+            "_id": "642438e068d7ea9aa9527851",
+            "question": "Qui animait le jeu télévisé le Bigdil ?",
+            "answer": "Vincent Lagaf'",
+            "badAnswers": [
+                "Philippe Risoli",
+                "Laurence Boccolini",
+                "Nagui"
+            ],
+            "category": "tv_cinema",
+            "difficulty": "facile"
+        },
+        {
+            "_id": "642438e068d7ea9aa9527854",
+            "question": "Sur quelle plateforme a été lancé la licence Final Fantasy ?",
+            "answer": "Nintendo Famicom",
+            "badAnswers": [
+                "Sony PlayStation",
+                "Microsoft Xbox",
+                "Sega Megadrive"
+            ],
+            "category": "jeux_videos",
+            "difficulty": "facile"
+        },
+        {
+            "_id": "642438e068d7ea9aa9527859",
+            "question": "Quel acteur joue le rôle de Hubert Bonisseur de la Bath dans le film 'OSS 117: Le Caire, nid d'espions' ?",
+            "answer": "Jean Dujardin",
+            "badAnswers": [
+                "Christian Clavier",
+                "Guillaume Canet",
+                "Neil Patrick Harris"
+            ],
+            "category": "tv_cinema",
+            "difficulty": "difficile"
+        },
+        {
+            "_id": "642438e068d7ea9aa952785c",
+            "question": "Qui est le premier héro dans Assassin's Creed ?",
+            "answer": "Altaïr",
+            "badAnswers": [
+                "Connor Kenway",
+                "Ezio Auditore",
+                "John White"
+            ],
+            "category": "jeux_videos",
+            "difficulty": "facile"
+        },
+        {
+            "_id": "642438e068d7ea9aa952785e",
+            "question": "Dans la version originale de 'Street Fighter II: The world Warrior', combien y a-t-il de personnages jouables ?",
+            "answer": "8",
+            "badAnswers": [
+                "12",
+                "10",
+                "6"
+            ],
+            "category": "jeux_videos",
+            "difficulty": "difficile"
+        },
+        {
+            "_id": "642438e068d7ea9aa952785d",
+            "question": "Comment s'appelle l'héroïne des jeux Metroid ?",
+            "answer": "Samus",
+            "badAnswers": [
+                "Sheamus",
+                "Darius",
+                "Prepus"
+            ],
+            "category": "jeux_videos",
+            "difficulty": "normal"
+        },
+        {
+            "_id": "642438e068d7ea9aa9527864",
+            "question": "Qui est le compositeur des Quatre Saisons ?",
+            "answer": "Antonio Vivaldi",
+            "badAnswers": [
+                "Johann Sebastian Bach",
+                "Wolfgang Amadeus Mozart",
+                "Wilhelm Richard Wagner"
+            ],
+            "category": "musique",
+            "difficulty": "normal"
+        },
+        {
+            "_id": "642438e068d7ea9aa952786a",
+            "question": "Quel groupe chante 'Roxanne ?",
+            "answer": "Police",
+            "badAnswers": [
+                "INXS",
+                "Nirvana",
+                "Scorpion"
+            ],
+            "category": "musique",
+            "difficulty": "facile"
+        },
+        {
+            "_id": "642438e068d7ea9aa952786c",
+            "question": "Calvin Cordozar Broadus, Jr. est le véritable nom de quel rappeur Américain ?",
+            "answer": "Snoop Dogg",
+            "badAnswers": [
+                "Dr. DRE",
+                "Coolio",
+                "2Pac"
+            ],
+            "category": "musique",
+            "difficulty": "difficile"
+        },
+        {
+            "_id": "642438e068d7ea9aa952786f",
+            "question": "Comment appelle-t-on le fruit du plaqueminier ?",
+            "answer": "Kaki",
+            "badAnswers": [
+                "Kakou",
+                "Kacha",
+                "Kali"
+            ],
+            "category": "culture_generale",
+            "difficulty": "difficile"
+        },
+        {
+            "_id": "642438e068d7ea9aa9527870",
+            "question": "Au Moyen-Âge, comment appelait-on les villages fortifiés ?",
+            "answer": "Bastide",
+            "badAnswers": [
+                "Tour",
+                "Château fort",
+                "Rempart"
+            ],
+            "category": "culture_generale",
+            "difficulty": "normal"
+        },
+        {
+            "_id": "642438e068d7ea9aa9527874",
+            "question": "A quel groupe musical international doit-on la bande originale du film 'Flash Gordon ?",
+            "answer": "Queen",
+            "badAnswers": [
+                "Yes",
+                "Led Zeppelin",
+                "The Doors"
+            ],
+            "category": "musique",
+            "difficulty": "difficile"
+        },
+        {
+            "_id": "642438e068d7ea9aa952784e",
+            "question": "Dans le film Le Magnifique, Jean-Paul Belmondo joue le rôle d'un ... ?",
+            "answer": "Ecrivain",
+            "badAnswers": [
+                "Militaire",
+                "Inspecteur",
+                "Milliardaire"
+            ],
+            "category": "tv_cinema",
+            "difficulty": "normal"
+        },
+        {
+            "_id": "642438e068d7ea9aa952787c",
+            "question": "Quel insecte appelle-t-on aussi la bête à bon dieu ?",
+            "answer": "La coccinelle",
+            "badAnswers": [
+                "La luciole",
+                "Le scarabée",
+                "La libellule"
+            ],
+            "category": "culture_generale",
+            "difficulty": "facile"
+        },
+        {
+            "_id": "642438e068d7ea9aa952787e",
+            "question": "Combien de temps dure le mandat du président des Etats-Unis ?",
+            "answer": "4 ans",
+            "badAnswers": [
+                "5 ans",
+                "6 ans",
+                "7 ans"
+            ],
+            "category": "culture_generale",
+            "difficulty": "facile"
+        },
+        {
+            "_id": "642438e068d7ea9aa9527883",
+            "question": "Quelle est la plus grande tortue marine connue à ce jour ?",
+            "answer": "La tortue luth",
+            "badAnswers": [
+                "La tortue franche",
+                "La tortue ninja",
+                "La tortue argneuse"
+            ],
+            "category": "culture_generale",
+            "difficulty": "facile"
+        },
+        {
+            "_id": "642438e068d7ea9aa9527887",
+            "question": "Quelle capitale actuelle était appelée 'Philadelphia' du temps des Romains ?",
+            "answer": "Amman",
+            "badAnswers": [
+                "Téhéran",
+                "Damas",
+                "Bagdad"
+            ],
+            "category": "culture_generale",
+            "difficulty": "difficile"
+        },
+        {
+            "_id": "642438e068d7ea9aa952788a",
+            "question": "Quel arbre est connu pour être le plus grand au monde ?",
+            "answer": "Le séquoia",
+            "badAnswers": [
+                "Le chêne",
+                "Le pin",
+                "Le hêtre"
+            ],
+            "category": "culture_generale",
+            "difficulty": "normal"
+        },
+        {
+            "_id": "642438e068d7ea9aa9527866",
+            "question": "Qui a chanté Joe le taxi ?",
+            "answer": "Vanessa Paradis",
+            "badAnswers": [
+                "Lio",
+                "Mylène Farmer",
+                "Brigitte Bardot"
+            ],
+            "category": "musique",
+            "difficulty": "facile"
+        },
+        {
+            "_id": "642438e068d7ea9aa9527848",
+            "question": "Rocky est un film qui parle de vie d'un ... ?",
+            "answer": "Boxeur",
+            "badAnswers": [
+                "Avocat",
+                "Chanteur",
+                "Journaliste"
+            ],
+            "category": "tv_cinema",
+            "difficulty": "facile"
+        },
+        {
+            "_id": "642438e068d7ea9aa952784a",
+            "question": "Quel symbole récompense le meilleur film au festival de Berlin ?",
+            "answer": "Ours d'or",
+            "badAnswers": [
+                "Léopard d'or",
+                "Pyramide d'or",
+                "Lion d'or"
+            ],
+            "category": "tv_cinema",
+            "difficulty": "difficile"
+        },
+        {
+            "_id": "642438e068d7ea9aa952784b",
+            "question": "Qui a réalisé le film Titanic ?",
+            "answer": "James Cameron",
+            "badAnswers": [
+                "Steven Spielberg",
+                "David Lynch",
+                "Chirstopher Nolan"
+            ],
+            "category": "tv_cinema",
+            "difficulty": "facile"
+        },
+        {
+            "_id": "642438e068d7ea9aa952783e",
+            "question": "Trois études pour un autoportrait est un tableau de ...",
+            "answer": "Francis Bacon",
+            "badAnswers": [
+                "Pablo Picasso",
+                "Salvador Dali",
+                "René Magritte"
+            ],
+            "category": "art_litterature",
+            "difficulty": "difficile"
+        },
+        {
+            "_id": "642438e068d7ea9aa9527865",
+            "question": "Quel est le nom du premier album des Black Eyed Peas ?",
+            "answer": "Behind the Front",
+            "badAnswers": [
+                "Bridging the Gap",
+                "Elephunk",
+                "Monkey Business"
+            ],
+            "category": "musique",
+            "difficulty": "difficile"
+        },
+        {
+            "_id": "642438e068d7ea9aa952784d",
+            "question": "Lequel de ces films n'a pas été réalisé par Quentin Tarentino ?",
+            "answer": "Matrix",
+            "badAnswers": [
+                "Pulp Fiction",
+                "Kill Bill",
+                "Les huit salopards"
+            ],
+            "category": "tv_cinema",
+            "difficulty": "facile"
+        },
+        {
+            "_id": "642438e068d7ea9aa9527867",
+            "question": "Quel était l'instrument de prédilection de Louis Armstrong ?",
+            "answer": "La Trompette",
+            "badAnswers": [
+                "La guitare",
+                "La contre-basse",
+                "La clarinette"
+            ],
+            "category": "musique",
+            "difficulty": "difficile"
+        },
+        {
+            "_id": "642438e068d7ea9aa952786d",
+            "question": "Quelle est la capitale de la Nouvelle-Zélande ?",
+            "answer": "Wellington",
+            "badAnswers": [
+                "Auckland",
+                "Dublin",
+                "Sydney"
+            ],
+            "category": "culture_generale",
+            "difficulty": "normal"
+        },
+        {
+            "_id": "642438e068d7ea9aa952786e",
+            "question": "Quel titre de noblesse est immédiatement inférieur à celui de comte ?",
+            "answer": "Vicomte",
+            "badAnswers": [
+                "Archiduc",
+                "Duc",
+                "Marquis"
+            ],
+            "category": "culture_generale",
+            "difficulty": "difficile"
+        },
+        {
+            "_id": "642438e068d7ea9aa9527873",
+            "question": "Quel pays a pour capital Katmandou ?",
+            "answer": "Le Népal",
+            "badAnswers": [
+                "Le Tibet",
+                "La Corée du Sud",
+                "Le Pakistan"
+            ],
+            "category": "culture_generale",
+            "difficulty": "normal"
+        },
+        {
+            "_id": "642438e068d7ea9aa9527871",
+            "question": "Comment est également appelée la 'Transat Jacques Vabre' ?",
+            "answer": "Route du café",
+            "badAnswers": [
+                "Route du rhum",
+                "Vendée Globe",
+                "Trophée du rhum"
+            ],
+            "category": "sport",
+            "difficulty": "normal"
+        },
+        {
+            "_id": "642438e068d7ea9aa952787a",
+            "question": "Quelle est la seule valeur à la roulette à porter la couleur verte ?",
+            "answer": "Le zéro",
+            "badAnswers": [
+                "Le cinquante",
+                "Le quarante",
+                "Le treize"
+            ],
+            "category": "culture_generale",
+            "difficulty": "facile"
+        },
+        {
+            "_id": "642438e068d7ea9aa9527878",
+            "question": "Quel peintre, né en 1844, est également appelé 'le Douanier' ?",
+            "answer": "Henri Rousseau",
+            "badAnswers": [
+                "Pablo Picasso",
+                "Edgar Degas",
+                "Salvador Dali"
+            ],
+            "category": "art_litterature",
+            "difficulty": "normal"
+        },
+        {
+            "_id": "642438e068d7ea9aa952787b",
+            "question": "Quelle est la plus petite unité de mémoire utilisable sur un ordinateur ?",
+            "answer": "Le bit",
+            "badAnswers": [
+                "Le byte",
+                "Le mega",
+                "Le giga"
+            ],
+            "category": "culture_generale",
+            "difficulty": "normal"
+        },
+        {
+            "_id": "642438e068d7ea9aa9527880",
+            "question": "Dans quelle ville se trouve la fontaine de Trevi ?",
+            "answer": "Rome",
+            "badAnswers": [
+                "Venise",
+                "Barcelone",
+                "Seville"
+            ],
+            "category": "culture_generale",
+            "difficulty": "facile"
+        },
+        {
+            "_id": "642438e068d7ea9aa952787f",
+            "question": "Dans quel pays se trouve le circuit automobile de Zandvoort ?",
+            "answer": "Les Pays-Bas",
+            "badAnswers": [
+                "La Belgique",
+                "La Suisse",
+                "La France"
+            ],
+            "category": "sport",
+            "difficulty": "normal"
+        },
+        {
+            "_id": "642438e068d7ea9aa9527885",
+            "question": "Dans quelle ville sont situées les plus célèbres falaises de France ?",
+            "answer": "Etretat",
+            "badAnswers": [
+                "Nice",
+                "Brest",
+                "Saint-Malo"
+            ],
+            "category": "culture_generale",
+            "difficulty": "facile"
+        },
+        {
+            "_id": "642438e068d7ea9aa9527888",
+            "question": "Quel os du squelette humain est le plus long et le plus solide ?",
+            "answer": "Le fémur",
+            "badAnswers": [
+                "Le radius",
+                "Le cubitus",
+                "Le carpe"
+            ],
+            "category": "culture_generale",
+            "difficulty": "normal"
+        },
+        {
+            "_id": "64243d70aeb01b8c7606fb6a",
+            "question": "Quel est le nom du 46ème président des Etats-Unis ?",
+            "answer": "Joe Biden",
+            "badAnswers": [
+                "Donald Trump",
+                "Barack Obama",
+                "Georges W. Bush"
+            ],
+            "category": "culture_generale",
+            "difficulty": "normal"
+        },
+        {
+            "_id": "642438e068d7ea9aa9527840",
+            "question": "Combien d'oeuvres a réalisé Jackson Pollock ?",
+            "answer": "+ de 700",
+            "badAnswers": [
+                "33",
+                "333",
+                "500"
+            ],
+            "category": "art_litterature",
+            "difficulty": "normal"
+        },
+        {
+            "_id": "642438e068d7ea9aa9527845",
+            "question": "Qui a joué dans la Fureur de vivre ?",
+            "answer": "James Dean",
+            "badAnswers": [
+                "Burt Lancaster",
+                "Clint Eastwood",
+                "Marlon Brando"
+            ],
+            "category": "tv_cinema",
+            "difficulty": "normal"
+        },
+        {
+            "_id": "642438e068d7ea9aa9527846",
+            "question": "Qui a joué en premier le rôle de James Bond ?",
+            "answer": "Sean Connery",
+            "badAnswers": [
+                "Roger Moore",
+                "George Lazenby",
+                "Timothy Dalton"
+            ],
+            "category": "tv_cinema",
+            "difficulty": "facile"
+        },
+        {
+            "_id": "642438e068d7ea9aa9527847",
+            "question": "En quelle année a été projeté le premier film ?",
+            "answer": "1895",
+            "badAnswers": [
+                "1924",
+                "1912",
+                "1904"
+            ],
+            "category": "tv_cinema",
+            "difficulty": "facile"
+        },
+        {
+            "_id": "642438e068d7ea9aa952784f",
+            "question": "Qui a composé la musique du film le grand Bleu ?",
+            "answer": "Eric Serra",
+            "badAnswers": [
+                "Vladimir Cosma",
+                "Alexandre Desplat",
+                "Ennio Morricone"
+            ],
+            "category": "tv_cinema",
+            "difficulty": "difficile"
+        },
+        {
+            "_id": "642438e068d7ea9aa9527857",
+            "question": "Lequel de ses personnages n'est pas disponible dans le jeu Street of Rage ?",
+            "answer": "Rick Thunder",
+            "badAnswers": [
+                "Adam Hunter",
+                "Axel Stone",
+                "Blaze Fielding"
+            ],
+            "category": "jeux_videos",
+            "difficulty": "difficile"
+        },
+        {
+            "_id": "642438e068d7ea9aa9527858",
+            "question": "Qui est le créateur du personnage Mario de Nintendo ?",
+            "answer": "Shigeru Miyamoto",
+            "badAnswers": [
+                "Fusajirō Yamauchi",
+                "Shuntaro Furukawa",
+                "Hayao Miyazaki"
+            ],
+            "category": "jeux_videos",
+            "difficulty": "difficile"
+        },
+        {
+            "_id": "642438e068d7ea9aa952785a",
+            "question": "Quel est le métier de Phoenix Wright ?",
+            "answer": "Avocat",
+            "badAnswers": [
+                "Enquêteur",
+                "Juge",
+                "Procureur"
+            ],
+            "category": "jeux_videos",
+            "difficulty": "normal"
+        },
+        {
+            "_id": "642438e068d7ea9aa952785f",
+            "question": "Quel est le premier jeu à avoir dépassé le million d'exemplaires vendus sur Playstation ?",
+            "answer": "Tekken",
+            "badAnswers": [
+                "Tomb Raider",
+                "Final Fantasy VII",
+                "Doom"
+            ],
+            "category": "jeux_videos",
+            "difficulty": "difficile"
+        },
+        {
+            "_id": "642438e068d7ea9aa9527868",
+            "question": "Qui a écrit 'Comme un boomerang', interprété par Etienne Daho et Dani en 2001 ?",
+            "answer": "Serges Gainsbourg",
+            "badAnswers": [
+                "Jean-Jacques Goldman",
+                "Patrick Bruel",
+                "Nicola Sirkis"
+            ],
+            "category": "musique",
+            "difficulty": "normal"
+        },
+        {
+            "_id": "642438e068d7ea9aa9527881",
+            "question": "En quoi un nihiliste croit-il ?",
+            "answer": "En rien",
+            "badAnswers": [
+                "En la chance",
+                "En tout",
+                "En lui-même"
+            ],
+            "category": "culture_generale",
+            "difficulty": "normal"
+        },
+        {
+            "_id": "642438e068d7ea9aa9527882",
+            "question": "Avec quel autre animal vit généralement une oie ?",
+            "answer": "Le jars",
+            "badAnswers": [
+                "Le canard",
+                "Le cygne",
+                "La poule"
+            ],
+            "category": "culture_generale",
+            "difficulty": "facile"
+        },
+        {
+            "_id": "642438e068d7ea9aa9527886",
+            "question": "Combien de paires de côtes possède-t-on ?",
+            "answer": "Douze paires",
+            "badAnswers": [
+                "Quatorze paires",
+                "Huit paires",
+                "Dix paires"
+            ],
+            "category": "culture_generale",
+            "difficulty": "normal"
+        },
+        {
+            "_id": "642438e068d7ea9aa952788b",
+            "question": "De quelle plante le nom signifie-t-il 'turban' en perse ?",
+            "answer": "La tulipe",
+            "badAnswers": [
+                "La digitale",
+                "Le renoncule",
+                "La jonquille"
+            ],
+            "category": "culture_generale",
+            "difficulty": "normal"
+        },
+        {
+            "_id": "644919d94127b4ef5edd107f",
+            "question": "Quel est le nom du 46ème président des Etats-Unis ?",
+            "answer": "Joe Biden",
+            "badAnswers": [
+                "Barack Obama",
+                "Georges W. Bush",
+                "Donald Trump"
+            ],
+            "category": "actu_politique",
+            "difficulty": "normal"
+        }
+    ]
+}
