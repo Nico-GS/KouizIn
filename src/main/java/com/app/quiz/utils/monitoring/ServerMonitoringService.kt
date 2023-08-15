@@ -26,7 +26,7 @@ class ServerMonitoringService : CoroutineScope, DisposableBean
     // region lateinit
 
     @Value("\${token.discord-bot}")
-    private lateinit var TOKEN_DISCORD_BOT: String
+    private var TOKEN_DISCORD_BOT: String = ""
 
     // endregion
 
